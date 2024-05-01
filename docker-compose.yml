@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  # Setting up the php service
+  php:
+    build: ./app  # Specifying the dirctory to php dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/var/www/html
+    depends_on:
+      - database
+  # Setting up the mysql service 
+  database:
+    build: ./mysql # Specifying the dirctory to mysql dockerfile
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:  # Define a volume for mysql data persistence
