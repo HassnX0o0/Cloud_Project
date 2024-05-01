@@ -1,6 +1,6 @@
-Dockerizing a college web application that's contain simple fucntionalites like:
-   - Adding Student.
-   - Deleting Students.
+Dockerizing a college web application that's contain simple functionalites like:
+   - Adding A Student.
+   - Deleting A Student.
    - Editing Student Data.
 
 ===========================================================================
