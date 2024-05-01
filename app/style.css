@@ -1,0 +1,40 @@
+
+.container  tr td{
+    padding:25px;
+}
+.container tr td{
+    
+    border:3px solid white;
+   
+}
+.container h1{
+    color: rgb(253, 0, 0);
+}
+.container .add{
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.container .edit{
+    padding: 10px 20px;
+    font-size: 25px;
+}
+.container thead tr td
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+
+}
+.container tbody tr td{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+body{
+    background-image: url("./28903.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    zoom: 0.7;
+}
+
