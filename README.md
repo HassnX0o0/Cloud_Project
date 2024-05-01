@@ -4,7 +4,9 @@ Dockerizing a college web application that's contain simple fucntionalites like:
    - Editing Student Data.
 
 ===========================================================================
-How to start 
+
+How to start
+
 ============
 
 - Make sure you have docker-compose installed on your machine.
